@@ -9,8 +9,6 @@
 ![Azure Cosmos DB](https://img.shields.io/badge/Azure_Cosmos_DB-MongoDB_vCore-0078D4?logo=microsoftazure&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--3.5-412991?logo=openai&logoColor=white)
 
-![AtlasMind AI chat](images/travel_agent_chat.PNG)
-
 ---
 
 ## Overview
@@ -182,8 +180,6 @@ python app.py
 
 The API runs at **http://127.0.0.1:8000**, with interactive docs at **http://127.0.0.1:8000/docs**.
 
-![FastAPI docs](images/fastapi_docs.PNG)
-
 ### 4. Start the frontend
 
 ```bash
@@ -204,8 +200,6 @@ npm start
 ```
 
 The app opens at **http://localhost:3000**.
-
-![AtlasMind AI web app](images/react_js_page.PNG)
 
 ---
 
@@ -281,7 +275,6 @@ curl -X POST http://127.0.0.1:8000/agent/agent_chat \
 - **Bookings are simulated.** `book_cruise` returns a demo confirmation and does not connect to a real reservation system.
 - **Sample data.** Ships, destinations, and itineraries are sample data for demonstration.
 - **No authentication.** The API is open and CORS allows all origins. Add authentication and restrict CORS before any public deployment.
-- **Model choice.** Uses `gpt-3.5-turbo-16k`. You can switch to a newer OpenAI model in `api/service/init.py`.
 
 ---
 
